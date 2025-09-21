@@ -14,5 +14,7 @@ Future Features I would like to add:
 * Automatically add recipe info by inputting the website, akin to apa citation generator? Might be hard with so many different formats from each recipe website
 * When on recipe page:
   * Multiplier for amount needed
-  * Up/down votes?
+  * Up/down votes? Maybe rating system?
   * Clickable ingredients to cross out when used?
+  * Spice/heat scale?
+  * Any common allergy warnings?
