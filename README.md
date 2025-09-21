@@ -1,4 +1,4 @@
-# Project1-MobileApp
+# project1github_DG
 Website to store and search through your favorite recipes.
 
 I have discovered a recent love for cooking, unfortunately I am not very good. I have to follow recipes to the letter and even then I don't always get them right. So I want to create a website where I can store all of my favorite recipes and then be able to search and filter through them based on dish name, ingredients, etc. Right now I have hardcoded one dish in but ideally I want to create webpages dynamically from recipes stored in my database.
