@@ -17,6 +17,7 @@ Project 1 - GitHub
 <body>
     <div class="container">
         <div class="title">
+            <!--I don't love the navbar design, maybe make it a dropdown instead?-->
             <nav>
                 <ul class="navbar">
                     <li><a href="./index.html">Home</a></li>
@@ -26,15 +27,29 @@ Project 1 - GitHub
             <h1>My Recipes</h1>
             <p>A place to store your favorite recipes, and maybe find a few new ones</p>
         </div>
-        
+        <div id="trTitle">
+            <h2>Trending Recipes</h2>
+        </div>
         <div class="trendingRecipes">
-            <div id="trTitle">
-                <h2>Trending Recipes</h2>
-            </div>
             <div id="tr1">
+                <!--maybe wrap the images in the a tag too? make the whole thing clickable-->
                 <img src="images/ChiliLimeSalmon.jpg" alt="Chili Lime Salmon">
                 <a href="recipeInfo.html">Click here to see the full Chili Lime Salmon recipe</a>
             </div>
+            <!--When under 800px, why is there such a gap between these two divs?-->
+            <div id="tr2">
+                <!--Might want to try and find a better image. It doesn't shrink well when going to mobile-->
+                <img src="images/CajunSalmon.jpg" alt="Cajun Salmon with Firecracker Sauce">
+                <p>Full cajun salmon recipe coming soon!</p>
+            </div>
+        </div>
+        <div id="companyInfo">
+            <h3>Contact Info</h3>
+            <p>
+            Call or email us at:<br>
+            555-555-5555<br>
+            support@myrecipes.com 
+            </p>
         </div>
     </div>
 </body>
